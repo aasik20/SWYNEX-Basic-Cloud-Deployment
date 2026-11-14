@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Cloud Deployment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <div class="cloud">☁</div>
+    <p class="eyebrow">TASK 2</p>
+    <h1>Basic Cloud Deployment</h1>
+    <p class="subtitle">A simple Node.js application prepared for deployment using Render, Docker, or another cloud platform.</p>
+    <section class="status">
+      <span id="dot" class="dot"></span>
+      <div>
+        <strong id="statusText">Checking deployment...</strong>
+        <p id="details">Connecting to the server API.</p>
+      </div>
+    </section>
+    <div class="grid">
+      <article><b>Node.js</b><span>Runtime</span></article>
+      <article><b>Express</b><span>Web server</span></article>
+      <article><b>/health</b><span>Health check</span></article>
+    </div>
+    <button id="checkBtn" type="button">Check Again</button>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
